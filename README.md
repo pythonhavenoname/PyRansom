@@ -8,4 +8,4 @@ cd Path
 等一会，在工作目录中的dist目录中就会有一个exe文件了
 当然，你也可以在使用pyinstaller时加入其他参数。
 # Photo
-https://gitee.com/pythonhavenoname/pyransom/raw/master/%E6%95%88%E6%9E%9C.png223216hds93r98wd0zcsw3.png
+https://gitee.com/pythonhavenoname/pyransom/
