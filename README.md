@@ -9,3 +9,5 @@ cd Path
 当然，你也可以在使用pyinstaller时加入其他参数。
 # Photo
 https://gitee.com/pythonhavenoname/pyransom/
+# 仅供研究，勿用非法！
+各大厂商，皆已上报，若用非法，作者概不承担！
